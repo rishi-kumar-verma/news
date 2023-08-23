@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Guide | InfyNews</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    <link rel="icon" href="../images/Logo.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/circular-std-font-face.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js"></script>
+    <meta name="description" content="Manage your projects at one place. Generate reports and invoices from the tasks of specific projects.">
+
+    <link rel="preload" href="../assets/css/0.styles.675d8e5e.css" as="style">
+    <link rel="preload" href="../js/styles.js" as="script">
+    <link rel="preload" href="../js/2.js" as="script">
+    <link rel="preload" href="../js/10.js" as="script">
+    <link rel="prefetch" href="../js/11.js">
+    <link rel="prefetch" href="../js/12.js">
+    <link rel="prefetch" href="../js/3.js">
+    <link rel="prefetch" href="../js/4.js">
+    <link rel="prefetch" href="../js/5.js">
+    <link rel="prefetch" href="../js/6.js">
+    <link rel="prefetch" href="../js/7.js">
+    <link rel="prefetch" href="../js/8.js">
+    <link rel="prefetch" href="../js/9.js">
+    <link rel="stylesheet" href="../assets/css/0.styles.675d8e5e.css">
+</head>
+<body>
+<div id="app" data-server-rendered="true">
+    <div class="theme-container">
+        <header class="navbar">
+            <div class="sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon">
+                    <path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path>
+                </svg>
+            </div>
+            <a href="../index.html" class="home-link router-link-active"><img src="../images/Logo.png" alt="InfyNews" class="logo">
+                <span class="site-name can-hide">InfyNews</span></a>
+            <div class="links"><!---->
+                <nav class="nav-links can-hide">
+                    <div class="nav-item"><a href="../index.html" class="nav-link">
+                        Home
+                    </a></div>
+                    <div class="nav-item">
+                        <a href="../docs/index.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+                            Docs
+                        </a></div>
+                    <div class="nav-item"><a href="../releases/index.html" class="nav-link">
+                        Releases
+                    </a></div>
+                    <div class="nav-item"><a href="../upgrade/index.html" class="nav-link">
+                        Upgrade Guide
+                    </a></div> <!----></nav>
+            </div>
+        </header>
+        <div class="sidebar-mask"></div>
+        <aside class="sidebar">
+            <nav class="nav-links">
+                <div class="nav-item"><a href="../index.html" class="nav-link">
+                    Home
+                </a></div>
+                <div class="nav-item">
+                    <a href="../docs/index.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+                        Docs
+                    </a></div>
+                <div class="nav-item"><a href="../releases/index.html" class="nav-link">
+                    Releases
+                </a></div>
+                <div class="nav-item"><a href="../upgrade/index.html" class="nav-link">
+                    Upgrade Guide
+                </a></div> <!----></nav>
+            <ul class="sidebar-links">
+                <li>
+                    <section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!---->
+                    </p>
+                        <ul class="sidebar-links sidebar-group-items">
+                            <li><a href="#technologies-used" class="sidebar-link">Technologies Used</a>
+                                <ul class="sidebar-sub-headers"></ul>
+                            </li>
+                            <li><a href="#installation-guide" class="sidebar-link">Installation Guide</a>
+                                <ul class="sidebar-sub-headers">
+                                    <li class="sidebar-sub-header"><a href="#system-requirement" class="sidebar-link">System
+                                        Requirement</a></li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#setup-infynews-system" class="sidebar-link">Setup InfyNews System</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#_1-copy-files-to-web-server" class="sidebar-link">1. Copy files to web
+                                            server</a></li>
+                                    <li class="sidebar-sub-header"><a href="#_2-setup-default-db" class="sidebar-link">2.
+                                        Setup Default DB</a></li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#_3-setup-environment-env-file" class="sidebar-link">3. Setup
+                                            environment .env
+                                            file</a></li>
+                                    <li class="sidebar-sub-header"><a href="#_4-admin-login" class="sidebar-link">4.
+                                        Admin login</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#setup-infynews-into-local-environment" class="sidebar-link">Setup
+                                InfyNews into Local Environment</a>
+                                <ul class="sidebar-sub-headers">
+                                    <li class="sidebar-sub-header">
+                                        <a href="#_1-install-xampp-wamp-if-you-don-t-have-it" class="sidebar-link">1.
+                                            Install xampp/wamp (if you don't have it).</a></li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#_2-create-folder-infynews" class="sidebar-link">2. Create folder
+                                            InfyNews</a></li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#_3-unzip-dist-zip-to-infynews-folder" class="sidebar-link">3.
+                                            Unzip dist zip to InfyNews folder</a></li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#_4-point-the-domain-to-the-uploaded-folder" class="sidebar-link">4.
+                                            Point the domain to the uploaded folder</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#key-features-and-concepts" class="sidebar-link">Key Features and
+                                Concepts</a>
+                                <ul class="sidebar-sub-headers"></ul>
+                            </li>
+                            <!--                            <li><a href="#multi-languages-support" class="sidebar-link">Multi languages Support</a>-->
+                            <!--                                <ul class="sidebar-sub-headers"></ul>-->
+                            <!--                            </li>-->
+                            <li>
+                                <a href="#landing-page" class="sidebar-link">Landing Page</a>
+                                <ul class="sidebar-sub-headers">
+                                    <li class="sidebar-sub-header">
+                                        <a href="#top-stories" class="sidebar-link">Top Stories</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#gallery-page" class="sidebar-link">Gallery</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#featured-posts" class="sidebar-link">Featured Posts</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#contact-us" class="sidebar-link">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#admin-panel" class="sidebar-link">Admin Panel</a>
+                                <ul class="sidebar-sub-headers">
+                                    <li class="sidebar-sub-header">
+                                        <a href="#admin-dashboard" class="sidebar-link">Dashboard</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#staffs" class="sidebar-link">Staffs</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#posts" class="sidebar-link">Posts</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#albums" class="sidebar-link">Albums</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#pages" class="sidebar-link">Pages</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#menus" class="sidebar-link">Menus</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#navigations" class="sidebar-link">Navigation</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#polls" class="sidebar-link">Polls</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#category" class="sidebar-link">Category</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#subCategory" class="sidebar-link">Sub Category</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#seo-tools" class="sidebar-link">Seo Tools</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#languages" class="sidebar-link">Languages</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#news-letters" class="sidebar-link">News Letters</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#mail" class="sidebar-link">Mail</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#roles-permissions" class="sidebar-link">Roles & Permissions</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#comments" class="sidebar-link">Commments</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#contact" class="sidebar-link">Contact</a>
+                                    </li>
+                                    <li class="sidebar-sub-header">
+                                        <a href="#settings" class="sidebar-link">Setting</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+        </aside>
+        <main class="page">
+            <div class="theme-default-content content__default"><h1 id="guide">
+                <a href="#guide" class="header-anchor">#</a> Guide</h1>
+                <p>The goal of InfyNews is to make the all news post.</p>
+                <h2 id="technologies-used"><a href="#technologies-used" class="header-anchor">#</a> Technologies Used
+                </h2>
+                <p>This system uses multiple technologies to give the best possible experience.</p>
+                <ul>
+                    <li>PHP 7.4 & 8.0 with Laravel Framework</li>
+                    <li>MySQL 5.6+</li>
+                    <li>jQuery</li>
+                    <li>Ajax</li>
+                </ul>
+                <h2 id="installation-guide"><a href="#installation-guide" class="header-anchor">#</a> Installation Guide
+                </h2>
+                <p>We tried our best to make the installation of the system as easy as possible.
+                    System Requirements
+                    It is assumed that you have primary knowledge Laravel installation knowledge since this application
+                    is built on Laravel.</p>
+                <h3 id="system-requirement"><a href="#system-requirement" class="header-anchor">#</a> System Requirement
+                </h3>
+                <p>It is assumed that you have primary knowledge Laravel and JS application installation knowledge since
+                    this application is built on Laravel with JS.</p>
+                <p>You can read about laravel Requirements
+                    <a href="https://laravel.com/docs/8.x#server-requirements" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+                </p>
+                <p>You need update below variables in php.ini file if you want to send bigger files (Optional).</p>
+                <p>upload_max_filesize = 50M</p>
+                <p>max_file_uploads = 50</p>
+                <p>post_max_size = 100M</p>
+                <h3 id="setup-infynews-system"><a href="#setup-infynews-system" class="header-anchor">#</a>
+                    Setup InfyNews System</h3>
+                <p>If you have purchased the InfyNews system then you will be able to find the zip named
+                    <code>dist.zip</code>. </p>
+                <p>If you want to setup <code>InfyNews</code> into your local environment then you can take help
+                    from <a href="#setup-infynews-into-local-environment">here</a>.</p>
+                <p>Now if you want to setup InfyNews on your server then you can directly copy the dist.zip folder
+                    to your web root directory on server and the following steps:</p>
+                <h3 id="_1-copy-files-to-web-server"><a href="#_1-copy-files-to-web-server" class="header-anchor">#</a>
+                    1. Copy files to web server</h3>
+                <p>Upload dist.zip to your web server's root (public_html) and extract it there.</p>
+                <h3 id="_2-setup-default-db"><a href="#_2-setup-default-db" class="header-anchor">#</a> 2. Setup Default
+                    DB</h3>
+                <ol>
+                    <li>Open PHPMyAdmin on your server and do a login.</li>
+                </ol>
+                <p><img src="../images/docs-images/db1.png" alt="Setup Default DB"></p>
+                <ol start="2">
+                    <li>Click on the Databases tab.</li>
+                </ol>
+                <p><img src="../images/docs-images/db2.png" alt="Setup Default DB"></p>
+                <ol start="3">
+                    <li>Create a new database and specify a Database name of your choice and Click Create button.</li>
+                </ol>
+                <p><img src="../images/docs-images/db3.png" alt="Setup Default DB"></p>
+                <ol start="4">
+                    <li>Now on the left, select the database (infy_news) OR the one that you have created.</li>
+                    <li>Click Import in the top menu</li>
+                </ol>
+                <p><img src="../images/docs-images/db4.png" alt="Setup Default DB"></p>
+                <ol start="6">
+                    <li>Under Import, choose the default sql file from <code>dist/database/infy_news.sql</code> and
+                        click button
+                        Go.
+                    </li>
+                </ol>
+                <!--                <p><img src="../images/docs-images/db5.png" alt="Setup Default DB"></p>-->
+                <h3 id="_3-setup-environment-env-file">
+                    <a href="#_3-setup-environment-env-file" class="header-anchor">#</a> 3. Setup environment .env file
+                </h3>
+                <ol>
+                    <li>Open .env file from your server's root folder.</li>
+                </ol>
+                <p><img src="../images/docs-images/setup.jpg" alt="Setup Default DB"></p>
+                <ol start="2">
+                    <li>Update your .env file</li>
+                </ol>
+                <p>You need to change the following information into your environment (.env) file.</p>
+                <p>Make sure your app name wrapped between Quotes (&quot;APP NAME&quot;).</p>
+                <div class="language- extra-class"><pre><code>- APP_NAME - Name of your Application
+- APP_URL - Change this URL with your server URL (including trailing path if you are putting it in sub folder or root website)
+- DB_HOST - Put your database hostname here
+- DB_PORT - Put your database port here if it does not default to 3306
+- DB_DATABASE - Change it to your database name
+- DB_USERNAME - Name of your database user
+- DB_PASSWORD - Password of your database user
+</code></pre>
+                </div>
+                <p>You will also need to set up mail configuration, you can read more about here for that setup based on
+                    mail service that you use.</p>
+                <div class="language- extra-class"><pre><code>- MAIL_DRIVER 
+- MAIL_HOST
+- MAIL_PORT
+- MAIL_USERNAME
+- MAIL_PASSWORD
+- MAIL_ENCRYPTION
+- MAIL_FROM_ADDRESS 
+- MAIL_FROM_NAME
+</code></pre>
+                </div>
+                <p>If you want to store your files to direct your <code>s3</code> bucket then you have to use following
+                    <code>.env</code> variables.
+                    You need to change <code>FILESYSTEM_DRIVER</code> and <code>MEDIA_DISK</code> value to
+                    <code>s3</code> when you are using AWS file storage.</p>
+                <div class="language- extra-class"><pre><code>- AWS_ACCESS_KEY_ID=
+- AWS_SECRET_ACCESS_KEY=
+- AWS_DEFAULT_REGION=us-east-1
+- AWS_BUCKET=
+- AWS_ENDPOINT=
+- AWS_URL=
+</code></pre>
+                </div>
+                <p>Or you can use your choice of storage driver to store your media assets if you want. All of your
+                    attachments will be placed into that.</p>
+                <p>
+                    Also, please set the google captcha keys too.
+                    <a href="https://www.iqcomputing.com/support/articles/generate-google-recaptcha-v2-keys/" target="_blank">Here</a>
+                    is link to generate and get the keys of google
+                    captcha. </p>
+                <div class="language- extra-class"><pre><code>- NOCAPTCHA_SECRET=
+- NOCAPTCHA_SITEKEY=
+</code></pre>
+                </div>
+                <h3 id="_4-admin-login"><a href="#_4-admin-login" class="header-anchor">#</a> 4. Super Admin login</h3>
+                <p>You can do admin login by accessing given URL.</p>
+                <p><code>YOUR_APP_URL/login</code></p>
+                <p>email: admin@infynews.com</p>
+                <p>password: 123456</p>
+
+
+                <p>And you are ready to go.</p>
+                <h2 id="setup-infynews-into-local-environment">
+                    <a href="#setup-infynews-into-local-environment" class="header-anchor">#</a> Setup InfyNews
+                    into Local Environment</h2>
+                <p>You can setup InfyNews into your local by using both zip files, but we recommend to use dist file
+                    so you have to perform minimal steps.</p>
+                <p>Here are some steps to setup InfyNews into your local environment :</p>
+                <h3 id="_1-install-xampp-wamp-if-you-don-t-have-it">
+                    <a href="#_1-install-xampp-wamp-if-you-don-t-have-it" class="header-anchor">#</a> 1. Install
+                    xampp/wamp (if you don't have it).</h3>
+                <h3 id="_2-create-folder-infynews"><a href="#_2-create-folder-infynews" class="header-anchor">#</a> 2.
+                    Create folder <code>InfyNews</code>
+                </h3>
+                <ul>
+                    <li>if you are using wamp then create Infynews folder under you_path_to_wamp/www/</li>
+                    <li>if you are using xamp then create Infynews folder under you_path_to_xamp/htdocs/</li>
+                </ul>
+                <h3 id="_3-unzip-dist-zip-to-infynews-folder">
+                    <a href="#_3-unzip-dist-zip-to-infynews-folder" class="header-anchor">#</a> 3. Unzip dist zip to
+                    InfyNews folder</h3>
+                <h3 id="_4-point-the-domain-to-the-uploaded-folder">
+                    <a href="#_4-point-the-domain-to-the-uploaded-folder" class="header-anchor">#</a> 4. Point the
+                    domain to the uploaded folder</h3>
+                <p>You need to create virtual host first to setup InfyNews. You can find steps here to create
+                    virtual host.</p>
+                <ul>
+                    <li>You can find steps
+                        <a href="https://medium.com/d6-digital/create-virtual-host-for-apache-on-windows-10-by-using-xampp-8664b0427567" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+                        to create virtual host on
+                        <code>XAMPP</code>.
+                    </li>
+                    <li>You can find steps
+                        <a href="http://codedecode.co.in/blog/wordpress/set-up-virtual-host-with-wamp/" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>
+                        to create virtual host on
+                        <code>WAMP</code>.
+                    </li>
+                </ul>
+                <p>Point your domain or subdomain to the InfyNews folder.</p>
+                <p>Please note that, InfyNews must be installed on a primary domain or subdomain. Installing on a
+                    sub-folder will not work, for example:</p>
+                <div class="language- extra-class"><pre><code>    example.com/InfyNews (Invalid)
+    localhost/InfyNews (Invalid) if you are putting it in sub folder or root website)
+    example.com (Valid)
+    local.InfyNews.com (Valid)
+    InfyNews.test (Valid)
+</code></pre>
+                </div>
+                <p>Open the link to the domain in the browser (Example: https://local.InfyNews.com).</p>
+                <h2 id="key-features-and-concepts"><a href="#key-features-and-concepts" class="header-anchor">#</a> Key
+                    Features and Concepts</h2>
+                <p>Here are some Key Features and Concepts that InfyNews provides.</p>
+                <p>Its a News Management application, so many users can register into system and use it as per their
+                    needs.</p>
+
+                <h2 id="landing-page"><a href="#landing-page" class="header-anchor">#</a>Landing Page</h2>
+                <p>Beautiful landing page from where users can get related post of information about the article post,
+                    gallery post and sort list post.</p>
+
+                <h3 id="top-stories"><a href="#top-stories" class="header-anchor">#</a>Top Stories</h3>
+                <p>Here we are listing the top news that is viewed most by users, so users can easily read latest and
+                    top news.</p>
+
+                <h3 id="gallery-page"><a href="#gallery-page" class="header-anchor">#</a>Gallery</h3>
+                <p>We are albums for galleries, So there will be multiple images within one album. you can use this to
+                    show some images for specific category, we are using attractive gallery UI.</p>
+
+                <h3 id="featured-posts"><a href="#featured-posts" class="header-anchor">#</a> Featured Posts</h3>
+                <p>Admin can mark some posts as features that will be highlighted into landing page with separate
+                    badges, so users can view directly it.</p>
+
+                <h3 id="contact-us"><a href="#contact-us" class="header-anchor">#</a> Contact Us </h3>
+                <p>Users can get the product/company information from the contact us section which is in the landing
+                    page. </p>
+
+                <h2 id="admin-panel"><a href="#admin-panel" class="header-anchor">#</a>Admin Panel</h2>
+                <h3 id="admin-dashboard"><a href="#admin-dashboard" class="header-anchor">#</a> Dashboard</h3>
+                <p>Dashboard contains the powerful information of whole project from where you can get short and quick
+                    overview what is going on your application.
+                    Here you can see the latest registered users lists and the page analytics views that your site
+                    receiving. </p>
+
+                <h3 id="staffs"><a href="#staffs" class="header-anchor">#</a> Staffs Management</h3>
+                <p>Here admin can manage the staff of the system. he can add / update / delete staff.</p>
+                <p>Also he can change staff status to in-active if something bad activity is reported. In-active users
+                    can no longer access to login to system so y this way we can prevent the security.</p>
+
+                <h3 id="posts"><a href="#posts" class="header-anchor">#</a> Posts Management</h3>
+                <p>We are giving 3 kinds of post creation as of now. Article, Gallery and Sorted List posts are
+                    supported right now.</p>
+                <p>You can create post with SEO settings and other additional features like auto publish feature that
+                    will automatically change post status to publish on given time.</p>
+                <p>Other major features are also supported here that, you can mark post to show it on headline on home
+                    page, or show it on slider on home page, or you can manage the visibility of posts from here.</p>
+
+                <h3 id="albums"><a href="#albums" class="header-anchor">#</a> Albums Management</h3>
+                <p>In Albums you can define set of images.</p>
+                <p>You have to create the album category first then you can assign that category to album.</p>
+                <p>While uploading images you can select the album so that particular images will be linked to that
+                    album.</p>
+                <p>In Home page there is Gallery menu where we are showing the all the images per albums with attractive
+                    UI.</p>
+
+                <h3 id="pages"><a href="#pages" class="header-anchor">#</a> Pages Management</h3>
+                <p> Here admin can create customize pages and update / delete pages and front side he can handle the
+                    pages.</p>
+
+                <h3 id="menus"><a href="#menus" class="header-anchor">#</a> Menus Management</h3>
+                <p>If you want to add your custom menu with any custom name to the front website then yes its possible
+                    via this interface. you have to create new menu and link it to the navigation menu.</p>
+
+                <h3 id="navigations"><a href="#navigations" class="header-anchor">#</a> Navigations Management</h3>
+                <p>Navigations menus are so important for any CMS sites, so we have take care of it and providing
+                    easiast interface to manage the navigation menu.</p>
+                <p>You can also manage the ordering of the menus by dragging it to up or down. There are two/ theree
+                    statis menus which orders will be never changes. e.g Home / Gallery.</p>
+
+                <h3 id="polls"><a href="#polls" class="header-anchor">#</a> Polls Managements</h3>
+                <p>Sometimes its will be good idea to gather data of our site and other informations from the users via
+                    taking feedback from them.</p>
+                <p>For this we have to create the questions lists we are calling it polls. And you can add related
+                    answers for it.</p>
+                <p>Polls will be visible to users in website there they can add their feedbacks and submit it, we are
+                    also showing the results per answers there.</p>
+                <h3 id="category"><a href="#category" class="header-anchor">#</a> Category Managements</h3>
+                <p>Categories are most important when we have bulk data in sites, so we can filter data by
+                    categories.</p>
+                <p>While creating posts we can assign categories to it, we are also supporting the sub categories of
+                    category.</p>
+
+                <h3 id="subCategory"><a href="#subCategory" class="header-anchor">#</a>Sub Category Managements</h3>
+                <p>You can create sub category when needed and assign it to posts. posts will be filtered by the
+                    category and sub categories. by this way we can find the more accurate posts, and it will also help
+                    users to find related posts of related categories or subcategories</p>
+
+                <h3 id="seo-tools"><a href="#seo-tools" class="header-anchor">#</a> SEO Tools Managements</h3>
+                <p> In this tech world its more difficult to ranked up our site and get in top. as we have lots of
+                    competitors. </p>
+                <p>The only way is the SEO, we are supporting the SEO management of pages, so you can configure the
+                    keywords as per your need and add / edit keywords as per your need.</p>
+                <p>We are using that keywords to front websites that will help your site to rank up in search
+                    engine.</p>
+
+                <h3 id="languages"><a href="#languages" class="header-anchor">#</a> Language Managements</h3>
+                <p>Languages are most important as each user don't want same language, so here we are with Language
+                    Management tool.</p>
+                <p>You can add your language and also add your translations keys as per your language.</p>
+
+                <h3 id="news-letters"><a href="#news-letters" class="header-anchor">#</a> News Letters Managements</h3>
+                <p>We have subscription options into front website from where users who are interested in our site is
+                    going to subscribe to our application.</p>
+                <p>Admin can see the lists of subscribers in the admin panel, when admin create any newsletters it will
+                    be sent to all the subscribers, so they will get notified by latest updates.</p>
+
+                <h3 id="mail"><a href="#mail" class="header-anchor">#</a>Mail Managements</h3>
+                <p>By using this module you can manage all type of mail and give permission to visitor send mail or not
+                    and much more.</p>
+                <p>You can add your mail settings from here like the mail driver, mail from name, mail from address,
+                    username and the password settings.</p>
+
+                <h3 id="roles-permissions"><a href="#roles-permissions" class="header-anchor">#</a> Role & Permissions
+                    Managements</h3>
+                <p>We are supporting the roles and permission features. so, You can create a different kind of roles as
+                    per your need.
+                    you can create role by selecting different permissions whatever you want to select for given
+                    role.</p>
+
+                <h3 id="comments"><a href="#comments" class="header-anchor">#</a> Comment Managements</h3>
+                <p>As we have the posts listing its important to have the comments on it.</p>
+                <p>Users can do comments on the posts and all users can see it default. if admin found that comment is
+                    kind of vulgar then he can hide that comment from the admin panel.</p>
+                <p>Also admin can decide that default added comments should be auto approved or be in pending state.</p>
+
+                <h3 id="contact"><a href="#contact" class="header-anchor">#</a> Contact Managements</h3>
+                <p>Here admin see all contact information and manage all contact information.</p>
+
+                <h3 id="settings"><a href="#settings" class="header-anchor">#</a>Setting</h3>
+                <p>Admin can manage all the system setting from this menu.</p>
+                <p>There are lots of basic setting there like Application settings which contains the logo, favicon,
+                    emails and other information settings.</p>
+                <p>There are CMS settings from where you can add text of the privacy and terms and conditions text.</p>
+                <p>There Contacts, cookies settings and social media links settings too.</p>
+            </div>
+            <footer class="page-edit"><!----> <!----></footer> <!----> </main>
+    </div>
+    <div class="global-ui"></div>
+</div>
+<script src="../js/styles.js" defer></script>
+<script src="../js/2.js" defer></script>
+<script src="../js/10.js" defer></script>
+</body>
+</html>
